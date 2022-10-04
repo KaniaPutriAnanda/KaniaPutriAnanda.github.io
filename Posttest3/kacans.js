@@ -48,4 +48,12 @@ const loc = document.getElementById("loc");
 loc.style.color = 'whitesmoke';
 loc.style.fontSize = '17px';
 
-document.getElementById("foto2").src = "https://i.pinimg.com/564x/28/5a/37/285a37fe3cd8e83f9be0a088b231868d.jpg"
+const foto = document.getElementById("foto2");
+
+foto.addEventListener('click', function(){
+    foto.src = "https://i.pinimg.com/564x/28/5a/37/285a37fe3cd8e83f9be0a088b231868d.jpg";
+})
+
+foto.addEventListener('dblclick', function(){
+    foto.src = "https://i.pinimg.com/564x/4f/7f/94/4f7f94271d808178ea7a4e2e6800488e.jpg";
+})
