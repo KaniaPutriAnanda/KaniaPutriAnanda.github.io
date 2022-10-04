@@ -16,6 +16,14 @@ toggle.addEventListener('click', function(){
 const kotak4 = document.getElementById("koTak4");
 kotak4.style.background = '#f092a5';
 
+kotak4.addEventListener('mouseenter', function(){
+    kotak4.style.background = '#b196c1';
+})
+
+kotak4.addEventListener('mouseout', function(){
+    kotak4.style.background = '#f092a5';
+})
+
 const igLogo = document.getElementById("igLogo");
 igLogo.style.color = 'whitesmoke';
 igLogo.style.fontSize = '15px';
